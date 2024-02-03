@@ -1,0 +1,24 @@
+.get-us-btn{
+    background-color: rgb(13 24 81);
+    font-size: 1.5rem;
+    padding: 10px 66px;
+}
+.get-us-btn:hover{
+    background-color: rgb(13 24 81);
+}
+.get-us-btn:active{
+    background-color: rgb(13 24 81);
+}
+.get-us{
+    color: white;
+    font-weight: 500;
+    text-decoration: none !important;
+}
+.get-us:hover{
+    color: white;
+    font-weight: 500;
+}
+.get-us:active{
+    color: white;
+    font-weight: 500;
+}

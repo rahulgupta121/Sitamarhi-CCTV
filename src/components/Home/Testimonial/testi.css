@@ -1,0 +1,23 @@
+.swiper-pagination-bullet{
+    width: 17px;
+    height: 17px;
+    margin: 0px 3px;
+    background: #4558cf;
+    display: block;
+}
+
+.slick-dots li button:before{
+    font-size: 20px;
+    color: #3141ab;
+}
+
+.slick-dots li button:active{
+    font-size: 20px;
+    color: #9e0930;
+    content: "";
+    font-family: "FontAwesome";
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #aa0e0e;
+}

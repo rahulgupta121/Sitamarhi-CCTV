@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+
+/* contact us */
+.contact-sec-1{
+  background: #121820 url("https://touchtec.in/wp-content/themes/touchtec-child/assets/images/map-pattern.png");
+}
+
+p{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+}
+.project-heading{
+  position: relative;
+    bottom: 50%; 
+    color: #ffff; 
+}
+/* .project-img:before{
+  content: "";
+  position: absolute;
+  
+ background-color: #121820;
+ opacity: 0.4;
+} */
+.project-img{
+  border-radius: 4px;
+}
+/* FAQS Css */
+.accordion-button{
+  width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 12px 0px 0px 9px;
+    background: #d3f8fa;
+    border-style: dashed;
+}
+.accordion-body p{
+    background: #eeeeee;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    padding: 15px;
+  }
+.accordion-body{
+  background: #eeeeee;
+}
+.contact-no:hover{
+  color: #ffff;
+  text-decoration: none;
+}
+a{
+  color: black !important;
+  
+}
+a:hover{
+  text-decoration: none !important;
+  
+}
+.card-body {
+  padding: 1.25rem 0rem !important;
+}
+.comm-li{
+  color: #ffff !important;
+}

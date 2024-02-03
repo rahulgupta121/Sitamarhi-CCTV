@@ -1,0 +1,14 @@
+ul li a {
+    color: white;
+}
+a:hover {
+    color: #dc3545;
+}
+ul li{
+    list-style: none;
+    color: #fff;
+}
+
+ul li:hover{
+    color: #dc3545;
+}

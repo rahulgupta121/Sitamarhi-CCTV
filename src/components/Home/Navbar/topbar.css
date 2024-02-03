@@ -1,0 +1,23 @@
+.contact-no{
+    font-weight: 600;
+    color: white;
+    padding: 0px 12px;
+}
+.navbar-link{
+    font-weight: 600;
+    color: black !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.contact-no{
+    border: none;
+    border-radius: 6px;
+    color: #ffff;
+}
+.contact-no-btn:hover{
+    color: #ffff !important;
+}
+.contact-no-btn{
+    color: #ffff !important;
+}

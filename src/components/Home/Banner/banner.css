@@ -1,0 +1,56 @@
+.main-sec-banner{
+    background: url("https://touchtec.in/wp-content/uploads/2020/02/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.main-sec-banner:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.52);
+}
+.main-heading{
+    color: white;
+    font-weight: 700;
+}
+.main-para{
+    color: white;
+}
+.request-head{
+    color: rgb(160, 16, 16);
+}
+.red-btn{
+    font-weight: 600;
+    color: white;
+    padding: 12px 23px;
+    border: none;
+    border-radius: 6px;
+    margin: 1rem;
+    background-color: rgb(160, 16, 16);
+}
+.hr-line{
+    border: 1px solid #af0808;
+    width: 6rem;
+    margin: revert;
+    color: #af0808;
+    background: #af0808;
+}
+.hr-line1{
+    border: 1px solid #af0808;
+    width: 6rem;
+    /* margin: auto; */
+    color: #af0808;
+    background: #af0808;
+}
+.card{
+    border: none ;
+}
+.card-img{
+    border: 0.5px solid #d2c9c9;
+    border-radius: 1rem;
+}

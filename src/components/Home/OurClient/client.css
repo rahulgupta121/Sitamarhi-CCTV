@@ -1,0 +1,7 @@
+.swiper-pagination-bullet{
+    width: 17px;
+    height: 17px;
+    margin: 0px 3px;
+    background: #4558cf;
+    display: flex;
+}
