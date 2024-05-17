@@ -13,6 +13,7 @@ import logo from '../../assets/main/SITAMARHI1.png'
         <Navbar.Brand href="#">
         <img className='brand-logo img-fluid' 
           src={logo}
+          alt="brand-logo"
         />
         </Navbar.Brand>
         <button className='contact-no bg-danger p-2'><a href='tel:8219956151' className='contact-no-btn'>Call To: 8219956151</a></button>

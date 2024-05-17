@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-// Import {useSta}
-// import Carousel from 'react-bootstrap/Carousel'
 import "./banner.css";
-// import OwlCarousel from 'react-owl-carousel';
-// import 'owl.carousel/dist/assets/owl.carousel.css';
-// import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Container from "react-bootstrap/Container";
 import { Row, Col, Form, Button, Card } from "react-bootstrap";
 import cctv1 from "../../assets/cctv.jpg";
@@ -14,12 +9,9 @@ import ourSer3 from "../../assets/ourService3.jpg";
 import ourSer4 from "../../assets/ourService4.jpg";
 import ourSer5 from "../../assets/ourService5.jpg";
 import ourSer6 from "../../assets/ourService6.jpg";
-import { OurCompany } from "../OurCompany";
 import { OurClient } from "../OurClient/OurClient";
 import SupportUs from "../SupportUs/SupportUs";
 import Testimonial from "../Testimonial/Testimonial";
-import { Topbar } from "../Navbar/Topbar";
-import Footer from "../../Footer/Footer";
 import { Link } from "react-router-dom";
 function Banner() {
   const [userData, setuserData] = useState({
@@ -67,13 +59,7 @@ function Banner() {
       alert("please enter your data correctly");
     }
   };
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
+
   return (
     <>
       {/* <section className='topNavbar'>
@@ -187,7 +173,7 @@ function Banner() {
               </Button>
             </Col>
             <Col xs={12} sm={12} md={6}>
-              <img src={cctv1} className="card-img img-fluid" />
+              <img src={cctv1} className="card-img img-fluid" alt="home-img" />
               {/* {cctv1} */}
             </Col>
           </Row>

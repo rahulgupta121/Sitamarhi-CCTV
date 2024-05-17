@@ -1,9 +1,4 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-// import { Swiper, SwiperSlide } from "swiper/react";
-
-// imported images 
-import img1 from "../../assets/cctv.jpg"
+import React from "react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -66,9 +61,6 @@ export const OurClient = (props) => {
       ]
     };
     const clientCarousel = [
-        // {
-        //   imgdata: img1,           
-        // },
         {
           imgdata: "https://touchtec.in/wp-content/uploads/2020/02/himalayan-group.jpg",           
         },
@@ -115,7 +107,7 @@ export const OurClient = (props) => {
             return(
               
         <div key={index.id}>
-        <img src={index.imgdata} style={{width:"150px"}}/>
+        <img src={index.imgdata} style={{width:"150px"}} alt="client-img"/>
         </div>
               
             )

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -56,28 +56,28 @@ export const OurCompany = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg"/>
+          <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg" alt="company-img" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg"/>
+        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg" alt="company-img" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg"/>
+        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg" alt="company-img" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg"/>
+        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg" alt="company-img" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg"/>
+        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg" alt="company-img" />
           
         </SwiperSlide>
 
         <SwiperSlide>
-        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg"/>
+        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg" alt="company-img" />
         </SwiperSlide>
 
         <SwiperSlide>
-        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg"/>
+        <img src="https://touchtec.in/wp-content/uploads/2020/02/cu.jpg" alt="company-img" />
         </SwiperSlide>
         {/* <SwiperSlide>Slide 8</SwiperSlide>
         <SwiperSlide>Slide 9</SwiperSlide> */}

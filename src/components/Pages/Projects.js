@@ -59,7 +59,7 @@ const Projects = () =>{
       {dataProject && dataProject.map((index, key)=>{
         return(
           <Col lg={4} className="py-3 project-img">
-            <img src={index.img} className="img-fluid"/>
+            <img src={index.img} className="img-fluid" alt="project-img" />
             <div className='project-heading'>
               <h4 className='text-center'>{index.data}</h4>
             </div>
