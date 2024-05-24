@@ -13,6 +13,7 @@ import Faqs from './components/Pages/Faqs';
 
 import Partners from './components/Pages/Partners';
 import Blogs from './components/Pages/Blogs';
+import SignUp from './components/Login/SignUp';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
           <Route path='/faqs' element={<Faqs />}/>
           <Route path='/partners' element={<Partners />}/>
           <Route path='/blogs' element={<Blogs />}/>
+          {/* Login / Sign Up */}
+          <Route path='/sign-up' element={<SignUp />}/>
       </Routes>
       </div>
       <Footer />
