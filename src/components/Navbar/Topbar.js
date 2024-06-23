@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
-import logo from '../../assets/main/SITAMARHI1.png'
+import logo from '../assets/main/SITAMARHI1.png'
 
  const Topbar = () => {
   return (
@@ -27,8 +27,9 @@ import logo from '../../assets/main/SITAMARHI1.png'
             <Nav.Link className='navbar-link'><Link to="about-us">About Us</Link></Nav.Link>
             <Nav.Link className='navbar-link'><Link to="/our-service">Our Services</Link></Nav.Link>
             <Nav.Link className='navbar-link'><Link to="/projects">Projects</Link></Nav.Link>
-            <Nav.Link className='navbar-link'><Link to="/faqs">FAQs</Link></Nav.Link>
+            {/* <Nav.Link className='navbar-link'><Link to="/faqs">FAQs</Link></Nav.Link> */}
             <Nav.Link className='navbar-link'><Link to="/blogs">Blog</Link></Nav.Link>
+            <Nav.Link className='navbar-link'><Link to="/faqs">Buy Product</Link></Nav.Link>
             <Nav.Link className='navbar-link'><Link to="/partners">Partners</Link></Nav.Link>
             <Nav.Link className='navbar-link' ><Link to="contact-us">Contact Us</Link></Nav.Link>
           </Nav>  

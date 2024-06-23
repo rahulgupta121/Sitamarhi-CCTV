@@ -5,7 +5,7 @@ import Home from "./components/Home/Banner/Home";
 import { BrowserRouter as Router, Switch, Route, Link, Routes } from "react-router-dom";
 import ContactUs from "./components/Pages/ContactUs";
 import AboutUs from "./components/Pages/AboutUs";
-import Topbar from "./components/Home/Navbar/Topbar";
+import Topbar from "../src/components/Navbar/Topbar";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Pages/Projects"
 import OurService from './components/Pages/OurServices'
@@ -14,6 +14,7 @@ import Faqs from './components/Pages/Faqs';
 import Partners from './components/Pages/Partners';
 import Blogs from './components/Pages/Blogs';
 import SignUp from './components/Login/SignUp';
+import BuyProduct from './components/Buy Products/BuyProduct';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='/faqs' element={<Faqs />}/>
           <Route path='/partners' element={<Partners />}/>
           <Route path='/blogs' element={<Blogs />}/>
+          <Route path='/buy-products' element={<BuyProduct />}/>
           {/* Login / Sign Up */}
           <Route path='/sign-up' element={<SignUp />}/>
       </Routes>
